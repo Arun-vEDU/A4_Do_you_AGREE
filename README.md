@@ -1,8 +1,12 @@
 ## File Structure:
 
-BERT - Traning the BERT
-SBERT - Experiment version of SBERT with full dataset of SNLI
+BERT.ipynb - Traning the BERT
 
+SBERT.ipynb - Experiment version of SBERT with full dataset of SNLI(can't train using full dataset)
+
+SBERT _experiment.ipynb - Use 1% od SNLI dataset
+
+Note: Evaluation and Analysis, Inference and Web Application Development  are based on SBERT _experiment.ipynb 
 ## Evaluation and Analysis
 
 | Epochs | Traning Loss | Validation Loss |
@@ -38,3 +42,5 @@ Classification Report:
 |Training on the full SNLI dataset is computationally expensive and time-consuming |Use a smaller subset of the dataset (like 1%) for prototyping and debugging before scaling up to the full dataset |
 | The model overfit to the training data, as the dataset is small  | Use regularization techniques: dropout,or early stopping |
 | SNLI dataset may have imbalanced classes  | Use synonym replacement |
+
+## Web Application Development
