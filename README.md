@@ -4,7 +4,7 @@ BERT.ipynb - Traning the BERT
 
 SBERT.ipynb - Experiment version of SBERT with full dataset of SNLI(can't train using full dataset)
 
-SBERT _experiment.ipynb - Use 1% od SNLI dataset
+SBERT _experiment.ipynb - Use 1% of SNLI dataset
 
 Note: Evaluation and Analysis, Inference and Web Application Development  are based on SBERT _experiment.ipynb 
 ## Evaluation and Analysis
