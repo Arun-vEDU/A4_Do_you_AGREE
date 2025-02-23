@@ -11,6 +11,11 @@ SBERT - Experiment version of SBERT with full dataset of SNLI
 | 2 | 1.77 | 1.81 |
 | 3 | 1.29 | 1.14 |
 
+# Example sentences
+sentence1 = "I love programming."
+
+sentence2 = "Coding is my passion."
+
 Cosine Similarity: 0.9439651966094971
 
 
