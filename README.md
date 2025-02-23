@@ -12,27 +12,26 @@ SBERT - Experiment version of SBERT with full dataset of SNLI
 | 3 | 1.29 | 1.14 |
 
 # Inference
-sentence1 = "I love programming."
 
-sentence2 = "Coding is my passion."
+| sentence 1 | sentence 2 | Cosine Similarity |
+|----------|----------|----------|
+| "I love programming." | "Coding is my passion." | 0.9439 |
 
-Cosine Similarity: 0.9439651966094971
+
 
 Classification Report:
-               precision    recall  f1-score   support
+| | precision | recall | f1-score |
+|----------|----------|----------|----------|
+|  entailment| 1.00 |  0.03  |  0.06   |
+|   neutral |  0.28 | 0.29 |  0.29 |
+|  contradiction|  0.34 | 0.68 | 0.46 |             
+|  accuracy|  - | - | 0.33 | 
+|  macro avg|  0.54  | 0.33 |  0.27 |
+|   weighted avg |   0.55 | 0.33 |  0.26 |
 
-   entailment       1.00      0.03      0.06        35
-      neutral       0.28      0.29      0.29        31
-contradiction       0.34      0.68      0.46        34
+|Accuracy: 0.3300 | Precision: 0.5539 | Recall: 0.3300 | F1-Score: 0.2629 |
+|----------|----------|----------|----------|
 
-     accuracy                           0.33       100
-    macro avg       0.54      0.33      0.27       100
- weighted avg       0.55      0.33      0.26       100
-
-Accuracy: 0.3300
-Precision: 0.5539
-Recall: 0.3300
-F1-Score: 0.2629
 
 | Limitations | Improvements |
 |----------|----------|
