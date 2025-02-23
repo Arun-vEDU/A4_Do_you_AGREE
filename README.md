@@ -11,7 +11,7 @@ SBERT - Experiment version of SBERT with full dataset of SNLI
 | Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | Row 2, Col 4 |
 
 
-| limitations | improvements |
+| Limitations | Improvements |
 |----------|----------|
 |Training on the full SNLI dataset is computationally expensive and time-consuming |Use a smaller subset of the dataset (like 1%) for prototyping and debugging before scaling up to the full dataset |
 | The model overfit to the training data, as the dataset is small  | Use regularization techniques: dropout,or early stopping |
