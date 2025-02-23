@@ -5,10 +5,13 @@ SBERT - Experiment version of SBERT with full dataset of SNLI
 
 ## Evaluation and Analysis
 
-| Column 1 | Column 2 | Column 3 | Column 4 |
-|----------|----------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 | Row 1, Col 4 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | Row 2, Col 4 |
+| Epochs | Traning Loss | Validation Loss |
+|----------|----------|----------|
+| 1 | 2.01 | 2.00 |
+| 2 | 1.77 | 1.81 |
+| 3 | 1.29 | 1.14 |
+
+Cosine Similarity: 0.9439651966094971
 
 
 | Limitations | Improvements |
