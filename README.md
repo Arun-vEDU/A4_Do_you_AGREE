@@ -44,3 +44,6 @@ Classification Report:
 | SNLI dataset may have imbalanced classes  | Use synonym replacement |
 
 ## Web Application Development
+
+[![Watch the video](https://img.youtube.com/vi/e_XwLZh450Q/0.jpg)](https://www.youtube.com/watch?v=e_XwLZh450Q)
+
